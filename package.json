@@ -1,0 +1,35 @@
+{
+  "name": "trm",
+  "version": "1.0.0",
+  "description": "tbd",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laureanray/trm.git"
+  },
+  "author": "Laurean Ray Bahala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laureanray/trm/issues"
+  },
+  "homepage": "https://github.com/laureanray/trm#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.8.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
