@@ -1,5 +1,5 @@
-const Terminal = () => {
-  return <div> Terminal! </div>;
-}
+import React from "react";
+
+const Terminal = () => <div>Term</div>;
 
 export default Terminal;
